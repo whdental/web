@@ -23,7 +23,8 @@ const About = () => {
                 We’re glad you hand your dental health concerns to our skilled
                 hands.
               </p>
-              <p className="about_long_descrp">{about_long_des_data.text}</p>
+              <p className="about_long_descrp" dangerouslySetInnerHTML={{ __html: about_long_des_data.text }}></p>
+
               {/* <div className="about_align_btn">
                 <Link
                   to={"/dental-clinic/team"}
