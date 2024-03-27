@@ -7,7 +7,9 @@
   justify-content: space-around;
   padding: 30px;
 }
-
+.footer_long_descrp p{
+  display: inline;
+}
 .wrapper_container_ab {
   display: flex;
   flex-direction: column;

@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap");
 .about_section_container {
-  padding: 30px 0;
+
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
+}
+.about_long_descrp p{
+  padding-bottom: 10px;
 }
 .about_container {
   width: 100%;
@@ -34,6 +37,7 @@
   text-align: justify;
   margin: 10px 10px 0px 0px;
 }
+
 .about_align_btn {
   display: flex;
   width: 99%;
@@ -98,7 +102,7 @@
   .about_container {
     width: 90%;
     height: 550px;
-    margin-top: 30px;
+    
   }
   .about_infos {
     width: 651px;
@@ -146,9 +150,9 @@
   }
 }
 @media screen and (max-width: 580px) {
-  .about_container {
+  /* .about_container {
     margin-top: 46px;
-  }
+  } */
   .about_infos {
     margin-top: 20px;
   }
@@ -182,9 +186,9 @@
   .about_infos {
     padding: 0px 20px 20px 25px;
   }
-  .about_container {
+  /* .about_container {
     margin-top: 0;
-  }
+  } */
   .more_info_btn {
     background: transparent;
     color: #000;
@@ -194,8 +198,45 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .about_container {
     height: 100%;
   }
+} */
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  
+  .about_section_container {
+    padding-bottom: 140px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 940px) {
+  
+  .about_section_container {
+    padding-bottom: 160px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 780px) {
+  
+  .about_section_container {
+    padding-bottom: 260px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 670px) {
+  
+  .about_section_container {
+    padding-bottom: 260px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1053px) {
+  
+  .about_section_container {
+    padding-bottom: 260px;
+  }
+}
+@media screen and (min-width: 924px) and (max-width: 1024px) {
+  .about_infos{
+    padding-top:170px;
+  }
+  
 }
