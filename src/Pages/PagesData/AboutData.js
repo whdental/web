@@ -1,5 +1,5 @@
 const about_long_des = {
-  text: `<p>Here at Wheatley Hill Dental Surgery our passionate steadfast team of 10 are commited to ensuring a gold standard of care is consistently delivered.</p>
+  text: `<p><br>Here at Wheatley Hill Dental Surgery our passionate steadfast team of 10 are commited to ensuring a gold standard of care is consistently delivered.</p>
 
 
   <p> <b>We pride ourself on the vast array of treatments we can provide by our skilled clinicians.</b></p>
@@ -13,7 +13,7 @@ const about_long_des = {
   <p> Best smile service hence is a must. 
   we have the proof, it is your trust.</br></p>
   
- <p>We owe the pleasures of our success to you, our patients that continue to rely on the high standard of care our dedicated team provides.</p>`, 
+ <p>We owe the pleasures of our success to you, our patients that continue to rely on the high standard of care our dedicated team provides.<br><br></p>`, 
   
 };
 
