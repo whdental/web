@@ -57,7 +57,7 @@ function LowerFooter() {
         <div className="about_us">
           <div className="wrapper_container_ab">
             <h2 style={{borderBottom :'2px solid white'}}>About Us</h2>
-            <p >{about_long_des_data.text}</p>
+            <p className="about_long_descrp" dangerouslySetInnerHTML={{ __html: about_long_des_data.text }}></p>
           </div>
         </div>
         <div className="footer_menu">
