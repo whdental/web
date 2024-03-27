@@ -2,7 +2,7 @@ const about_long_des = {
   text: `We are a passionate and steadfast team of 10. Together, we believe in one success formula - Best Service Delivery, every time.
 
 </br>
-  <b>A beautiful smile takes one extra mile; and we deliver the smile</b>
+  <b>A beautiful smile takes one extra mile; and we deliver the smile.</b>
   
 </br>
   We look forward to providing you and your family with the dental excellence and care you deserve.
