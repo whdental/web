@@ -70,7 +70,7 @@ function ContactForm() {
       <Row className="justify-content-md-center">
         <Col md={6}>
           <Form ref={dataForm} onSubmit={handleSubmit} id='contact-form'>
-          <h2>Contact Us</h2>
+          <h2 className='congt_alig'>Contact Us</h2>
 
             <Form.Group controlId="formName" className='formGroup'>
               <Form.Label>Name</Form.Label>
@@ -109,9 +109,10 @@ function ContactForm() {
               />
               {errors.message && <Form.Text className="text-danger">{errors.message}</Form.Text>}
             </Form.Group>
-            <Button className="submitBtn" variant="primary" type="submit">
-              Send
+            <div className='submitbutton'><Button className="submitBtn" variant="primary" type="submit">
+              <p>Send</p>
             </Button>
+            </div>
           </Form>
         </Col>
       </Row>
