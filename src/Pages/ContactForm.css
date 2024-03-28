@@ -78,3 +78,18 @@ width: 100%;
 padding: 0;
 margin: 10px 0;
 }
+@media screen and (max-width: 320px){
+ 
+  .formGroup,.congt_alig{
+    margin-left: 20px;
+  }
+  .formInput,.formInput_textarea,.submitBtn{
+    width:88%
+  }
+  .submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
