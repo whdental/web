@@ -37,8 +37,8 @@
   justify-content: center;
   align-content: center;
 }
-.phoneNumber{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.phoneNumber {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -100,12 +100,12 @@
   color: #fff;
   padding: 15px 20px;
   width: 80%;
-  height: 240px;
+  height: 250px;
   border-radius: 15px;
   box-shadow: 0px 0px 8px #3a3939;
 }
 #info_01 {
-  background-color: #50c41f	;
+  background-color: #50c41f;
 }
 #info_02 {
   background-color: #82e956;
@@ -138,6 +138,11 @@
 .transperent_btn:active {
   transform: scale(0.9);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
 }
 #tr_btn_01 {
   width: 214px;
@@ -204,7 +209,7 @@
   }
 }
 @media screen and (max-width: 924px) {
-  .mainImage{
+  .mainImage {
     max-height: 500px;
     max-width: 500px;
   }
@@ -224,7 +229,7 @@
   .front_page_info h2 {
     width: 90%;
   }
-  .front_container{
+  .front_container {
     width: 90%;
     margin-top: 60px;
   }
@@ -233,10 +238,9 @@
     margin-bottom: -50px !important;
     height: 694px;
   }
-
 }
 @media screen and (max-width: 580px) {
-  .mainImage{
+  .mainImage {
     max-height: 300px;
     max-width: 300px;
   }
@@ -273,7 +277,7 @@
     margin-top: 10px;
   }
   .front_page_info h2 {
-    font-size: 40px
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 480px) {

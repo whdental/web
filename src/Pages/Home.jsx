@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import "font-awesome/css/font-awesome.min.css";
 import { HashLink } from "react-router-hash-link";
-import slide1 from "../assets/slide_1.jpg"
+import slide1 from "../assets/slide_1.jpg";
 
 const Home = () => {
   return (
@@ -63,8 +63,9 @@ const Home = () => {
                 style={{ textDecoration: "none", color: "#fff" }}
               >
                 <div className="transperent_btn">
-                  <h4 className='phoneNumber'>
-                    <i class="material-symbols-outlined">call </i><span>01429 820308</span>
+                  <h4 className="phoneNumber">
+                    <i class="material-symbols-outlined">call </i>
+                    <span>01429 820308</span>
                     <span></span>
                   </h4>
                 </div>
@@ -73,12 +74,22 @@ const Home = () => {
             <div className="basic_info" id="info_02">
               <h2>Are you looking to improve your oral health and smile?</h2>
               <p>There's no better option than INVISALIGN</p>
-              <HashLink
-                to={"/invisalign"}
-                style={{ textDecoration: "none", color: "#fff" }}
-              >
-                <div className="transperent_btn">Read More</div>
-              </HashLink>
+              <div className="button-container">
+                <HashLink
+                  to={"/invisalign"}
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  <div className="transperent_btn">Read More</div>
+                </HashLink>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  <div className="transperent_btn">Signup for Member Plan</div>
+                </a>
+              </div>
             </div>
             <div className="basic_info" id="info_03">
               <h2>Opening Hours</h2>

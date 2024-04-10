@@ -1,0 +1,105 @@
+@media screen and (max-width: 924px) {
+  .InvisalignBanner {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  .InvisalignContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 15px black;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .InvisalignChild h1 {
+    font-weight: 500;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .invisalignImage {
+    display: flex;
+    gap: 2px;
+  }
+  .invisalignImage img {
+    width: 100%;
+    height: auto;
+  }
+  .invisalignQR {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+  .invisalignfooter {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+  }
+  .invisalignfooterContainter {
+    width: 90%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 925px) {
+  .InvisalignBanner {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  .InvisalignContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 1px 15px black;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .InvisalignChild h1 {
+    font-weight: 500;
+    width: 45%;
+    padding: 1rem;
+    text-align: center;
+  }
+  .InvisalignChild {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .invisalignImage {
+    display: flex;
+    width: 100%;
+    gap: 2px;
+  }
+  .invisalignImage img {
+    width: 100%;
+  }
+  .invisalignQR {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+  }
+  .invisalignfooter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .invisalignfooterContainter {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .invisalignfooterContainter p {
+    font-size: 10px;
+  }
+}
