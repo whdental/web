@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
-import 'font-awesome/css/font-awesome.min.css';
-import './Navbar.css';
-import logoImage from './images/newImages/whds-logo.png'
+import React, { useState } from "react";
+import { HashLink } from "react-router-hash-link";
+import "font-awesome/css/font-awesome.min.css";
+import "./Navbar.css";
+import logoImage from "./images/newImages/whds-logo.png";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
           </HashLink>
           <h3>WHEATLEY HILL DENTAL SURGERY</h3>
         </div>
-        <div className={isActive ? 'active_links' : 'links'}>
+        <div className={isActive ? "active_links" : "links"}>
           <div className="MenuItems">
             <HashLink to="/#home" onClick={closeMobileMenu}>
               Home
@@ -41,7 +41,7 @@ const Navbar = () => {
           </div>
           <div className="MenuItems">
             <HashLink to="/#our-team" onClick={closeMobileMenu}>
-            OurTeam
+              OurTeam
             </HashLink>
           </div>
           <div className="MenuItems">
@@ -49,14 +49,17 @@ const Navbar = () => {
               Contact
             </HashLink>
           </div>
-          {/* <div className="MenuItems bgMenu" id="Appointment_menu">
-            <HashLink to="/dental-clinic/slot" onClick={closeMobileMenu}>
-              Appointment
+          <div className="MenuItems bgMenu" id="Appointment_menu">
+            <HashLink
+              to="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
+              target="_blank"
+            >
+              JoinUs
             </HashLink>
-          </div> */}
+          </div>
         </div>
         <div className="toggle_menu_icons" onClick={handleClick}>
-          <i className={isActive ? 'fas fa-times' : 'fas fa-bars'}></i>
+          <i className={isActive ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </div>
     </>

@@ -7,7 +7,7 @@
   justify-content: space-around;
   padding: 30px;
 }
-.footer_long_descrp p{
+.footer_long_descrp p {
   display: inline;
 }
 .wrapper_container_ab {
@@ -45,6 +45,12 @@
   height: 73px;
   display: flex;
   flex-wrap: wrap;
+}
+.bg_green {
+  background: #50c41f;
+  width: 6rem;
+  border-radius: 7px;
+  text-align: center;
 }
 .rp_data img {
   height: 80px;
@@ -112,7 +118,7 @@
   font-size: 18px;
   border-radius: 50%;
   cursor: pointer;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-decoration: none;
 }
 

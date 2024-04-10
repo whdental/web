@@ -14,6 +14,12 @@ function LowerFooter() {
       nav_name: "Our Team",
     },
     { index: 5, link_to: "/#contact-us", nav_name: "Contact Us" },
+    {
+      index: 5,
+      link_to: "https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery",
+      nav_name: "Join Us",
+      button: true,
+    },
   ];
   const contact_data = [
     {
@@ -68,7 +74,13 @@ function LowerFooter() {
             <div className="footer_data_menu">
               {nav_data.map((data, index) => {
                 return (
-                  <HashLink className="nav_data" key={index} to={data.link_to}>
+                  <HashLink
+                    // className={`nav_data ${data?.button && "bg_green"} `}
+                    className="nav_data"
+                    key={index}
+                    target={`${data.button && "_blank"}`}
+                    to={data.link_to}
+                  >
                     {data.nav_name}
                   </HashLink>
                 );

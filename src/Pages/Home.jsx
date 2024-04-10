@@ -86,9 +86,7 @@ const Home = () => {
                   rel="noopener noreferrer"
                   href="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
                   style={{ textDecoration: "none", color: "#fff" }}
-                >
-                  <div className="transperent_btn">Signup for Member Plan</div>
-                </a>
+                ></a>
               </div>
             </div>
             <div className="basic_info" id="info_03">
