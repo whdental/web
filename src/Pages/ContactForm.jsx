@@ -46,12 +46,10 @@ function ContactForm() {
     setErrors(errors);
     return isValid;
   };
-  console.log(dataForm, "dataFormdataForm");
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
       // Submit the form data
-      console.log("Form data:", formData);
       emailjs
         .sendForm(
           "service_kvwashi",
@@ -61,7 +59,6 @@ function ContactForm() {
         )
         .then(
           (result) => {
-            console.log(result.text);
             toast.current.show({
               severity: "success",
               summary: "Success",

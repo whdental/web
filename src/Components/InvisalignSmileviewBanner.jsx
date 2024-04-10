@@ -18,7 +18,7 @@ function InvisalignSmileviewBanner() {
             away from Discovering Your new Smile
           </h1>
           <div className="invisalignImage">
-            <img src={dentalbanner} />
+            <img alt="bannerimg" src={dentalbanner} />
           </div>
           <div className="invisalignQR">
             <QRCode
@@ -32,13 +32,18 @@ function InvisalignSmileviewBanner() {
         </div>
         <div className="invisalignfooterContainter">
           <div className="invisalignfooter">
-            <img style={{ padding: "6px" }} width={35} src={roundSvg} />
+            <img
+              alt="notfound"
+              style={{ padding: "6px" }}
+              width={35}
+              src={roundSvg}
+            />
             <h2 style={{ color: "#bf1d84" }}>
               Try the Invisalign SmileView* tool While you wait
             </h2>
           </div>
           <div style={{ display: "flex", justifyContent: "end" }}>
-            <img src={invisalignLogo} width={100} />
+            <img alt="notfound" src={invisalignLogo} width={100} />
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis
