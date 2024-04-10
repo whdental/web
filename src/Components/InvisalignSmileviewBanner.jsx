@@ -54,19 +54,19 @@ function InvisalignSmileviewBanner() {
               width: "100%",
             }}
           >
-            <div style={{ width: "90%" }}>
+            <div className="footer_content">
               <p>
                 *Our smile Visualization tool is a computer generated of what
                 your smile may look like after clear alignment.Actual result may
                 vary.
               </p>
-              <img src={alignLogo} alt="notfound" width={50} />
+              <img src={alignLogo} alt="notfound" width={35} />
               <p>
                 Align Technology Swizerland GmbH, Suurstoffi 22, 6343 Rockreuz,
                 Switzerland.
               </p>
               <p>
-                &copy;2024 Align Technology,Inc.All Rights Reserved.Invisalign,
+                &copy; 2024 Align Technology,Inc.All Rights Reserved.Invisalign,
                 ClinCheck and SmartTrack, among others,are trademarks and/or
                 service marks of Align Technology, Inc.or one of its
                 subsidiaries or affiliated companies and may be registered in

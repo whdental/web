@@ -106,4 +106,7 @@
   .invisalignfooterContainter p {
     font-size: 8px;
   }
+  .footer_content {
+    width: 90%;
+  }
 }
