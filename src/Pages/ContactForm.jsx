@@ -8,8 +8,8 @@ function ContactForm() {
   const toast = useRef(null);
 
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    from_name: "",
+    from_email: "",
     message: "",
   });
 
@@ -25,16 +25,16 @@ function ContactForm() {
     let errors = {};
     let isValid = true;
 
-    if (!formData.name.trim()) {
-      errors.name = "Name is required";
+    if (!formData.from_name.trim()) {
+      errors.from_name = "Name is required";
       isValid = false;
     }
 
-    if (!formData.email.trim()) {
-      errors.email = "Email is required";
+    if (!formData.from_email.trim()) {
+      errors.from_email = "Email is required";
       isValid = false;
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = "Email address is invalid";
+    } else if (!/\S+@\S+\.\S+/.test(formData.from_email)) {
+      errors.from_email = "Email address is invalid";
       isValid = false;
     }
 
@@ -46,12 +46,10 @@ function ContactForm() {
     setErrors(errors);
     return isValid;
   };
-  console.log(dataForm, "dataFormdataForm");
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
       // Submit the form data
-      console.log("Form data:", formData);
       emailjs
         .sendForm(
           "service_kvwashi",
@@ -61,7 +59,6 @@ function ContactForm() {
         )
         .then(
           (result) => {
-            console.log(result.text);
             toast.current.show({
               severity: "success",
               summary: "Success",
@@ -89,10 +86,10 @@ function ContactForm() {
               <Form.Label>Name</Form.Label>
               <Form.Control
                 type="text"
-                name="name"
+                name="from_name"
                 placeholder="Your Name"
                 className="formInput"
-                value={formData.name}
+                value={formData.from_name}
                 onChange={handleChange}
               />
               {errors.name && (
@@ -103,14 +100,16 @@ function ContactForm() {
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
-                name="email"
+                name="from_email"
                 className="formInput"
                 placeholder="Your Email"
-                value={formData.email}
+                value={formData.from_email}
                 onChange={handleChange}
               />
-              {errors.email && (
-                <Form.Text className="text-danger">{errors.email}</Form.Text>
+              {errors.from_email && (
+                <Form.Text className="text-danger">
+                  {errors.from_email}
+                </Form.Text>
               )}
             </Form.Group>
             <Form.Group controlId="formMessage" className="formGroup">
