@@ -81,12 +81,6 @@ const Home = () => {
                 >
                   <div className="transperent_btn">Read More</div>
                 </HashLink>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
-                  style={{ textDecoration: "none", color: "#fff" }}
-                ></a>
               </div>
             </div>
             <div className="basic_info" id="info_03">
