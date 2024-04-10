@@ -1,16 +1,17 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './Pages/Navbar';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Services from './Pages/Services';
-import Contact from './Pages/Contact';
-import Profile from './Pages/Profile';
-import ApBooking from './Components/ApBooking';
-import ContactForm from './Pages/ContactForm';
-import Treatments from './Pages/Treatments/Treatments';
-import Appointment from './Pages/Appointment';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Pages/Navbar";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Services from "./Pages/Services";
+import Contact from "./Pages/Contact";
+import Profile from "./Pages/Profile";
+import ApBooking from "./Components/ApBooking";
+import ContactForm from "./Pages/ContactForm";
+import Treatments from "./Pages/Treatments/Treatments";
+import Appointment from "./Pages/Appointment";
+import InvisalignSmileviewBanner from "./Components/InvisalignSmileviewBanner";
 
 const App = () => {
   return (
@@ -23,16 +24,17 @@ const App = () => {
             <>
               <Home />
               <ApBooking />
+              <InvisalignSmileviewBanner />
               <About />
               <Services />
               <Profile />
-              <ContactForm/>
+              <ContactForm />
               <Contact />
             </>
           }
         />
-        <Route path='/service/:id' element={<Treatments/>}/>
-        <Route path='/invisalign' element={<Appointment/>}/>
+        <Route path="/service/:id" element={<Treatments />} />
+        <Route path="/invisalign" element={<Appointment />} />
       </Routes>
     </>
   );
