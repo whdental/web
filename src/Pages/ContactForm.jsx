@@ -68,7 +68,7 @@ function ContactForm() {
             // alert("Successfully sended...")
           },
           (error) => {
-            console.log(error.text);
+            console.error(error.text);
           }
         );
     }
