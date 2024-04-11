@@ -6,9 +6,6 @@ import logoImage from "./images/newImages/whds-logo.png";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
-
-  console.log(isActive, "asdfgh");
-
   const handleClick = () => {
     setActive(!isActive);
   };
