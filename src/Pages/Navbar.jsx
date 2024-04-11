@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import "font-awesome/css/font-awesome.min.css";
 import "./Navbar.css";
@@ -7,9 +7,23 @@ import logoImage from "./images/newImages/whds-logo.png";
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
 
+  console.log(isActive, "asdfgh");
+
   const handleClick = () => {
     setActive(!isActive);
   };
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 950) {
+        setActive(false);
+      }
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const closeMobileMenu = () => {
     setActive(false);
@@ -41,7 +55,7 @@ const Navbar = () => {
           </div>
           <div className="MenuItems">
             <HashLink to="/#our-team" onClick={closeMobileMenu}>
-              OurTeam
+              Our Team
             </HashLink>
           </div>
           <div className="MenuItems">
@@ -54,7 +68,7 @@ const Navbar = () => {
               to="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
               target="_blank"
             >
-              JoinUs
+              Join Us
             </HashLink>
           </div>
         </div>
