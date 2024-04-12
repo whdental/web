@@ -13,7 +13,7 @@ const About = () => {
         {/* <div className="about_section_container">
           <h2 className="about_title">
             <span className="about_title_logo">
-              <i class="fa-solid fa-angles-right"></i>
+              <i className="fa-solid fa-angles-right"></i>
             </span>
             About US
           </h2>
@@ -39,26 +39,29 @@ const About = () => {
             </div>
           </div>
         </div> */}
-      
-      {/*  */}
-      <div className="cointainer_about">
-        <div className="about_us_main">
-          <div className="about_us_con">
-            <h2>
-            <span>
-              <i class="fa-solid fa-angles-right"></i>
-            </span>
-            About US
-          </h2>
-          </div>
+
+        {/*  */}
+        <div className="cointainer_about">
+          <div className="about_us_main">
+            <div className="about_us_con">
+              <h2>
+                <span>
+                  <i className="fa-solid fa-angles-right"></i>
+                </span>
+                About US
+              </h2>
+            </div>
           </div>
           <div className="about_para_details_img">
-          <div className="about_points">
+            <div className="about_points">
               <p className="about_short_descrp_main">
                 We’re glad you hand your dental health concerns to our skilled
                 hands.
               </p>
-              <p className="about_long_descrp_main" dangerouslySetInnerHTML={{ __html: about_long_des_data.text }}></p>
+              <p
+                className="about_long_descrp_main"
+                dangerouslySetInnerHTML={{ __html: about_long_des_data.text }}
+              ></p>
 
               {/* <div className="about_align_btn">
                 <Link
@@ -70,10 +73,14 @@ const About = () => {
               </div> */}
             </div>
             <div className="about_img_in">
-              <img  className="about_img" src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2154988.jpg" alt="about img" />
+              <img
+                className="about_img"
+                src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2154988.jpg"
+                alt="about img"
+              />
             </div>
           </div>
-      </div>
+        </div>
       </div>
     </>
   );

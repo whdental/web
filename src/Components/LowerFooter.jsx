@@ -37,12 +37,12 @@ function LowerFooter() {
   const contact_link = [
     {
       index: 1,
-      img: <i class="fa-brands fa-facebook-f"></i>,
+      img: <i className="fa-brands fa-facebook-f"></i>,
       on_link: "https://www.facebook.com/wheatleyhillds",
     },
     {
       index: 2,
-      img: <i class="fa-brands fa-instagram"></i>,
+      img: <i className="fa-brands fa-instagram"></i>,
       on_link: "https://www.instagram.com/wheatleyhilldental/",
     },
     // {
