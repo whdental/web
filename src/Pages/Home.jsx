@@ -26,7 +26,7 @@ const Home = () => {
                     margin: "0",
                     textAlign: "left",
                     lineHeight: "1.2",
-                    color: "hsl(218, 70%, 18%);",
+                    color: "#55c0ec",
                   }}
                 >
                   We love our job.
