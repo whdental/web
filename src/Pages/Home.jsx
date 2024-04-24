@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import "font-awesome/css/font-awesome.min.css";
 import { HashLink } from "react-router-hash-link";
-import slide1 from "../assets/slide_1.jpg";
+import slide1 from "../assets/Dental-main1.jpeg";
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
                     margin: "0",
                     textAlign: "left",
                     lineHeight: "1.2",
-                    color: "hsl(218, 70%, 18%);",
+                    color: "#000",
                   }}
                 >
                   We love our job.
