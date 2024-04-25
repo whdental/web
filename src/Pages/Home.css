@@ -170,9 +170,11 @@
     height: 500px;
   }
   .front_page_info p {
-    font-size: 21px;
+    font-size: 18px;
     text-align: left;
     width: 529px;
+    margin-top: 40px;
+    font-weight: 600;
   }
   .clinic_container {
     width: 100%;
@@ -228,6 +230,7 @@
   }
   .front_page_info h2 {
     width: 90%;
+    font-size: 40px;
   }
   .front_container {
     width: 90%;
@@ -277,7 +280,7 @@
     margin-top: 10px;
   }
   .front_page_info h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 @media screen and (max-width: 480px) {
