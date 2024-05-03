@@ -1,87 +1,90 @@
-.treatments{
-    /* height: 85vh; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.treatments {
+  /* height: 85vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.servicePanel{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.servicePanel {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.servicePanelleft{
-    justify-content: flex-start;
-    width: 60%;
-    padding: 1rem;
-    height: 100%;
+.servicePanelleft {
+  justify-content: flex-start;
+  width: 60%;
+  padding: 1rem;
+  height: 100%;
 }
-.serviceTitle{
-    font-size: 30px;
+.serviceTitle {
+  font-size: 30px;
 }
-.serviceDesc{
-    font-size: 20px;
-    margin-top: 1rem;
-    text-align: justify;
+.serviceDesc {
+  font-size: 20px;
+  margin-top: 1rem;
+  text-align: justify;
 }
 .fieldset {
-    padding: 1rem;
-    border: 1px solid #67b745;
-    height: 100%;
-    color: gray;
+  padding: 1rem;
+  border: 1px solid #67b745;
+  height: 100%;
+  color: gray;
 }
-.fieldset legend{
- padding: 1rem;
- margin-left: 2rem;
- background: #67b745;
- border: none;
- color: white;
+.fieldset legend {
+  padding: 1rem;
+  margin-left: 2rem;
+  background: #67b745;
+  border: none;
+  color: white;
 }
-.servicePanelright{
-    justify-content: flex-end;
-    width: 40%;
-    height: 100%;
-    /* border: 1px solid; */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
+.servicePanelright {
+  justify-content: flex-end;
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .servicePanelright img {
-    border-radius: 10px;
-    margin: 1rem;
-    object-fit: contain;
+  width: 100%;
+  height: 18rem;
+  border-radius: 10px;
+  margin: 1rem;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 1024px) {
-    .treatments {
-      height: 85vh;
-}}
+  .treatments {
+    height: 85vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
-    .servicePanel {
-      flex-direction: column;
-      height: 100%;
-    }
-    .servicePanelleft {
-      width: 100%;
-      padding: 1rem;
-    }
-    .servicePanelright {
-      width: 100%;
-      justify-content: center;
-    }
+  .servicePanel {
+    flex-direction: column;
+    height: 100%;
   }
+  .servicePanelleft {
+    width: 100%;
+    padding: 1rem;
+  }
+  .servicePanelright {
+    width: 100%;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 480px) {
-    .servicePanel {
-      flex-direction: column;
-    }
-    .servicePanelleft{
-        width: 100%;
-    }
-    .servicePanelright{
-        width: 100%;
-        height: 100%;
-    }
+  .servicePanel {
+    flex-direction: column;
   }
+  .servicePanelleft {
+    width: 100%;
+  }
+  .servicePanelright {
+    width: 100%;
+    height: 100%;
+  }
+}
