@@ -19,54 +19,63 @@ const Profile = () => {
       id: 1,
       photo: staff1,
       name: "Mr. Keerthi Kumar Ujjini Basavaiah",
+      GDC: 139219,
       occupation: "Principal Dentist",
     },
     {
       id: 2,
       photo: staff10,
       name: "Mrs. Alberta Marlene Da Cunha Ribeiro",
+      GDC: 133895,
       occupation: "Associate Dentist",
     },
     {
       id: 3,
       photo: staff7,
       name: "Miss. Frances Poulter",
+      GDC: 308656,
       occupation: "Foundation Dentist",
     },
     {
       id: 4,
       photo: staff2,
       name: "Miss. Beverley Watson",
+      GDC: 132997,
       occupation: "Practice Manager",
     },
     {
       id: 5,
       photo: staff6,
       name: "Mrs. Shona Tilley",
+      GDC: 110334,
       occupation: "Dental Nurse",
     },
     {
       id: 6,
       photo: staff4,
       name: "Mrs. Karen Thurlbeck",
+      GDC: 199374,
       occupation: "Dental Nurse",
     },
     {
       id: 7,
       photo: staff5,
       name: "Miss. Ashleigh Rowell",
+      GDC: 285099,
       occupation: "Dental Nurse",
     },
     {
       id: 8,
       photo: staff9,
       name: "Miss. Samantha Cook",
+      GDC: 246331,
       occupation: "Dental Nurse",
     },
     {
       id: 9,
       photo: staff11,
       name: "Miss. Philipa Young",
+      GDC: 285143,
       occupation: "Dental Nurse",
     },
     {
@@ -106,6 +115,7 @@ const Profile = () => {
         />
         <div className="profile_info">
           <h3 className="profile_name">{profile.name}</h3>
+          {profile.GDC && <h6 className="profile_GDC">GDC: {profile.GDC}</h6>}
           <h4 className="profile_occupation">{profile.occupation}</h4>
         </div>
       </div>
