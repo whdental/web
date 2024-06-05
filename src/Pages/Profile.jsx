@@ -12,6 +12,7 @@ import staff8 from "./images/Staffs/image_3.jpeg";
 import staff9 from "./images/Staffs/image_7.jpeg";
 import staff10 from "./images/Staffs/image_8.jpeg";
 import staff11 from "./images/Staffs/image_11.png";
+import staff12 from "./images/Staffs/image_12.png";
 
 const Profile = () => {
   const your_profile_details = [
@@ -89,6 +90,13 @@ const Profile = () => {
       photo: staff8,
       name: "Miss. Joanne Metcalfe",
       occupation: "Receptionist",
+    },
+    {
+      id: 12,
+      photo: staff12,
+      name: "Miss. Charlotte Dickinson",
+      GDC: 222039,
+      occupation: "Dental Therapist and Hygienist",
     },
   ];
 
