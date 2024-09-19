@@ -7,7 +7,7 @@ import staff3 from "./images/Staffs/image_4.jpeg";
 import staff4 from "./images/Staffs/image_9.jpeg";
 import staff5 from "./images/Staffs/image_2.jpeg";
 import staff6 from "./images/Staffs/image_10.jpeg";
-import staff7 from "./images/Staffs/image_1.jpeg";
+import staff7 from "./images/Staffs/image_111.jpeg";
 import staff8 from "./images/Staffs/image_3.jpeg";
 import staff9 from "./images/Staffs/image_7.jpeg";
 import staff10 from "./images/Staffs/image_8.jpeg";
@@ -33,8 +33,8 @@ const Profile = () => {
     {
       id: 3,
       photo: staff7,
-      name: "Miss. Frances Poulter",
-      GDC: 308656,
+      name: "Mr. Robson Chiremba",
+      GDC: 318442,
       occupation: "Foundation Dentist",
     },
     {
@@ -72,13 +72,7 @@ const Profile = () => {
       GDC: 285099,
       occupation: "Dental Nurse",
     },
-    {
-      id: 9,
-      photo: staff9,
-      name: "Miss. Samantha Cook",
-      GDC: 246331,
-      occupation: "Dental Nurse",
-    },
+   
     {
       id: 10,
       photo: staff11,
