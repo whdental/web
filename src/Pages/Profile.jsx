@@ -7,7 +7,7 @@ import staff3 from "./images/Staffs/image_4.jpeg";
 import staff4 from "./images/Staffs/image_9.jpeg";
 import staff5 from "./images/Staffs/image_2.jpeg";
 import staff6 from "./images/Staffs/image_10.jpeg";
-import staff7 from "./images/Staffs/image_111.jpeg";
+import staff7 from "./images/Staffs/image_1.jpeg";
 import staff8 from "./images/Staffs/image_3.jpeg";
 import staff9 from "./images/Staffs/image_7.jpeg";
 import staff10 from "./images/Staffs/image_8.jpeg";
