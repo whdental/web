@@ -7,12 +7,11 @@ import staff3 from "./images/Staffs/image_4.jpeg";
 import staff4 from "./images/Staffs/image_9.jpeg";
 import staff5 from "./images/Staffs/image_2.jpeg";
 import staff6 from "./images/Staffs/image_10.jpeg";
-import staff7 from "./images/Staffs/image_1.jpeg";
 import staff8 from "./images/Staffs/image_3.jpeg";
-import staff9 from "./images/Staffs/image_7.jpeg";
 import staff10 from "./images/Staffs/image_8.jpeg";
 import staff11 from "./images/Staffs/image_11.png";
 import staff12 from "./images/Staffs/image_12.png";
+import staff13 from "./images/Staffs/Staff-7.jpeg";
 
 const Profile = () => {
   const your_profile_details = [
@@ -32,24 +31,24 @@ const Profile = () => {
     },
     {
       id: 3,
-      photo: staff7,
-      name: "Miss. Frances Poulter",
-      GDC: 308656,
-      occupation: "Foundation Dentist",
-    },
-    {
-      id: 4,
       photo: staff12,
       name: "Miss. Charlotte Dickinson",
       GDC: 222039,
       occupation: "Dental Therapist and Hygienist",
     },
     {
-      id: 5,
+      id: 4,
       photo: staff2,
       name: "Miss. Beverley Watson",
       GDC: 132997,
       occupation: "Practice Manager",
+    },
+    {
+      id: 5,
+      photo: staff13,
+      name: "Miss.Rboson Chiremba",
+      GDC: 318442,
+      occupation: " Foundation Dentist",
     },
     {
       id: 6,
@@ -74,26 +73,19 @@ const Profile = () => {
     },
     {
       id: 9,
-      photo: staff9,
-      name: "Miss. Samantha Cook",
-      GDC: 246331,
-      occupation: "Dental Nurse",
-    },
-    {
-      id: 10,
       photo: staff11,
       name: "Miss. Philipa Young",
       GDC: 285143,
       occupation: "Dental Nurse",
     },
     {
-      id: 11,
+      id: 10,
       photo: staff3,
       name: "Miss. Megan Jones",
       occupation: "Trainee Dental Nurse",
     },
     {
-      id: 12,
+      id: 11,
       photo: staff8,
       name: "Miss. Joanne Metcalfe",
       occupation: "Receptionist",
