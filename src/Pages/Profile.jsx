@@ -31,10 +31,10 @@ const Profile = () => {
     },
     {
       id: 3,
-      photo: staff12,
-      name: "Miss. Charlotte Dickinson",
-      GDC: 222039,
-      occupation: "Dental Therapist and Hygienist",
+      photo: staff13,
+      name: "Miss.Rboson Chiremba",
+      GDC: 318442,
+      occupation: " Foundation Dentist",
     },
     {
       id: 4,
@@ -45,10 +45,10 @@ const Profile = () => {
     },
     {
       id: 5,
-      photo: staff13,
-      name: "Miss.Rboson Chiremba",
-      GDC: 318442,
-      occupation: " Foundation Dentist",
+      photo: staff12,
+      name: "Miss. Charlotte Dickinson",
+      GDC: 222039,
+      occupation: "Dental Therapist and Hygienist",
     },
     {
       id: 6,
