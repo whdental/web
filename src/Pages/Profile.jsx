@@ -32,7 +32,7 @@ const Profile = () => {
     {
       id: 3,
       photo: staff13,
-      name: "Miss.Rboson Chiremba",
+      name: "Mr. Rboson Chiremba",
       GDC: 318442,
       occupation: " Foundation Dentist",
     },
