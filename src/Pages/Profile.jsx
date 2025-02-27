@@ -32,7 +32,7 @@ const Profile = () => {
     {
       id: 3,
       photo: staff13,
-      name: "Mr. Rboson Chiremba",
+      name: "Mr. Robson Chiremba",
       GDC: 318442,
       occupation: " Foundation Dentist",
     },
@@ -84,12 +84,12 @@ const Profile = () => {
       name: "Miss. Megan Jones",
       occupation: "Trainee Dental Nurse",
     },
-    {
+    /* {
       id: 11,
       photo: staff8,
       name: "Miss. Joanne Metcalfe",
       occupation: "Receptionist",
-    },
+    }, */
   ];
 
   const responsiveOptions = [
