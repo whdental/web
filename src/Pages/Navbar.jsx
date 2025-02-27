@@ -62,7 +62,8 @@ const Navbar = () => {
           </div>
           <div className="MenuItems bgMenu" id="Appointment_menu">
             <HashLink
-              to="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery"
+              /* to="https://portal.interbacs.com/Signup/WheatleyHillDentalSurgery" */
+              to="/#home"
               target="_blank"
             >
               Join Us
