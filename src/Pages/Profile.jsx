@@ -3,7 +3,7 @@ import "./Profile.css";
 import { Carousel } from "primereact/carousel";
 import staff1 from "./images/Staffs/image_5.png";
 import staff2 from "./images/Staffs/image_6.png";
-import staff3 from "./images/Staffs/image_4.jpeg";
+// import staff3 from "./images/Staffs/image_4.jpeg";
 import staff4 from "./images/Staffs/image_9.jpeg";
 import staff5 from "./images/Staffs/image_2.jpeg";
 import staff6 from "./images/Staffs/image_10.jpeg";
